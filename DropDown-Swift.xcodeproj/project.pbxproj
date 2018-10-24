@@ -12,6 +12,7 @@
 		74B3E74721806DFE00C831A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B3E74521806DFE00C831A0 /* Main.storyboard */; };
 		74B3E74921806E0200C831A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B3E74821806E0200C831A0 /* Assets.xcassets */; };
 		74B3E74C21806E0200C831A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B3E74A21806E0200C831A0 /* LaunchScreen.storyboard */; };
+		74B3E75421806E2E00C831A0 /* DropDownSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3E75321806E2E00C831A0 /* DropDownSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		74B3E74821806E0200C831A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B3E74B21806E0200C831A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B3E74D21806E0200C831A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B3E75321806E2E00C831A0 /* DropDownSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				74B3E74121806DFE00C831A0 /* AppDelegate.swift */,
 				74B3E74321806DFE00C831A0 /* ViewController.swift */,
+				74B3E75321806E2E00C831A0 /* DropDownSwift.swift */,
 				74B3E74521806DFE00C831A0 /* Main.storyboard */,
 				74B3E74821806E0200C831A0 /* Assets.xcassets */,
 				74B3E74A21806E0200C831A0 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B3E74421806DFE00C831A0 /* ViewController.swift in Sources */,
+				74B3E75421806E2E00C831A0 /* DropDownSwift.swift in Sources */,
 				74B3E74221806DFE00C831A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78MF2EZ6Y4;
 				INFOPLIST_FILE = "DropDown-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78MF2EZ6Y4;
 				INFOPLIST_FILE = "DropDown-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
