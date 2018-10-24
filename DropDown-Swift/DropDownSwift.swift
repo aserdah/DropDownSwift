@@ -105,7 +105,7 @@ class DropDownSwift: UITextField {
         let size = self.frame.height
         let arrowView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: size, height: size))
         let arrowContainerView = UIView(frame: arrowView.frame)
-        if (!isRTL){
+        if (!isRTL || self.semanticContentAttribute == .forceLeftToRight){
             self.rightView      = arrowView
             self.rightViewMode  = .always
             self.rightView?.addSubview(arrowContainerView)
